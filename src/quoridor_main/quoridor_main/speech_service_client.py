@@ -2,7 +2,7 @@
 # coding: utf-8
 
 """
-Speech Service 실전 테스트 클라이언트
+Speech Service 실전 테스트 클라이언트----
 오케스트레이터의 게임 플로우를 시뮬레이션
 """
 
