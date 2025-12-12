@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f8457e4c973c468e0c06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "qulido_robot_msgs__py",
+					"jsonFile" : "directory-qulido_robot_msgs__py-f57a6f05757ab643cf65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "qulido_robot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_qulido_robot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_qulido_robot_msgs_egg-6b88ef73459b728107cc.json",
+					"name" : "ament_cmake_python_build_qulido_robot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_qulido_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_qulido_robot_msgs-6347da58dd6966ddd172.json",
+					"name" : "ament_cmake_python_symlink_qulido_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs-1ae8a9b23861d99eafd9.json",
+					"name" : "qulido_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__cpp-68a77cd4f86f075e1b28.json",
+					"name" : "qulido_robot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qulido_robot_msgs__py::@ce57a468b4b7ae0d4251",
+					"jsonFile" : "target-qulido_robot_msgs__py-92b4e8845f82c48cc943.json",
+					"name" : "qulido_robot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_generator_c-40534f974522f937fc7a.json",
+					"name" : "qulido_robot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_generator_py-42287317ca99b994244d.json",
+					"name" : "qulido_robot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_c-9e20d37ae38f67124110.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_c__pyext-374b588467c4fd32f75d.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_cpp-0b61ce4cc87f4027d5cc.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_fastrtps_c-f4ade7f2fbc50bd055f3.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext-92272dac3267642273e4.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp-d5cda98a20a5f01d084e.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_introspection_c-1bc32f3bc49ab327c00c.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext-692395ae3ef1e304b998.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs__rosidl_typesupport_introspection_cpp-07267a427aed5b85e268.json",
+					"name" : "qulido_robot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qulido_robot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qulido_robot_msgs_uninstall-9221629ff64f9ea5d64b.json",
+					"name" : "qulido_robot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3f902da8eb4fa96878a7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs",
+		"source" : "/home/rokey/quoridor_ws/src/qulido_robot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/srv/_get_board_state.py

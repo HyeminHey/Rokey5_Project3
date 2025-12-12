@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qulido_robot_msgs/srv/AiCompute.srv
+// generated code does not contain a copyright notice
+
+
+module qulido_robot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct AiCompute_Request {
+      sequence<int32> added;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct AiCompute_Response {
+      sequence<int32> ai_cmd;
+    };
+  };
+};

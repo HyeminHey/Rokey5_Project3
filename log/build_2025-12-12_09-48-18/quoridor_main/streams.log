@@ -1,0 +1,18 @@
+[0.560s] Invoking command in '/home/rokey/quoridor_ws/build/quoridor_main': PYTHONPATH=/home/rokey/quoridor_ws/build/quoridor_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/quoridor_ws/build/quoridor_main/build --no-deps symlink_data
+[0.746s] running develop
+[0.863s] running egg_info
+[0.863s] writing quoridor_main.egg-info/PKG-INFO
+[0.863s] writing dependency_links to quoridor_main.egg-info/dependency_links.txt
+[0.863s] writing entry points to quoridor_main.egg-info/entry_points.txt
+[0.863s] writing requirements to quoridor_main.egg-info/requires.txt
+[0.863s] writing top-level names to quoridor_main.egg-info/top_level.txt
+[0.864s] reading manifest file 'quoridor_main.egg-info/SOURCES.txt'
+[0.866s] writing manifest file 'quoridor_main.egg-info/SOURCES.txt'
+[0.866s] running build_ext
+[0.867s] Creating /home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages/quoridor-main.egg-link (link to .)
+[0.867s] Installing game_orchestrator script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.867s] Installing robot_ctrl script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.867s] 
+[0.867s] Installed /home/rokey/quoridor_ws/build/quoridor_main
+[0.867s] running symlink_data
+[0.885s] Invoked command in '/home/rokey/quoridor_ws/build/quoridor_main' returned '0': PYTHONPATH=/home/rokey/quoridor_ws/build/quoridor_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/quoridor_ws/build/quoridor_main/build --no-deps symlink_data

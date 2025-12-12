@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from qulido_robot_msgs/action/ExecuteMotion.action
+// generated code does not contain a copyright notice
+
+#include "qulido_robot_msgs/msg/MotionSequence.idl"
+
+module qulido_robot_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ExecuteMotion_Goal {
+      qulido_robot_msgs::msg::MotionSequence sequence;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct ExecuteMotion_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ExecuteMotion_Feedback {
+      string current_step;
+    };
+  };
+};

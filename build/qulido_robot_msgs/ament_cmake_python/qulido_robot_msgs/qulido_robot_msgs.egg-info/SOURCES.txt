@@ -1,0 +1,11 @@
+setup.py
+qulido_robot_msgs/__init__.py
+qulido_robot_msgs.egg-info/PKG-INFO
+qulido_robot_msgs.egg-info/SOURCES.txt
+qulido_robot_msgs.egg-info/dependency_links.txt
+qulido_robot_msgs.egg-info/top_level.txt
+qulido_robot_msgs/action/__init__.py
+qulido_robot_msgs/action/_execute_motion.py
+qulido_robot_msgs/msg/__init__.py
+qulido_robot_msgs/msg/_motion_primitive.py
+qulido_robot_msgs/msg/_motion_sequence.py

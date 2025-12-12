@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_fastrtps_c.h

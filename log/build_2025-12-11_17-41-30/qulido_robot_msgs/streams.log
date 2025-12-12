@@ -1,0 +1,334 @@
+[0.010s] Invoking command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake /home/rokey/quoridor_ws/src/qulido_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/rokey/quoridor_ws/install/qulido_robot_msgs
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.447s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.958s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.958s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.958s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.987s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.992s] -- Added test 'lint_cmake' to check CMake code style
+[0.993s] -- Added test 'xmllint' to check XML markup files
+[0.995s] -- Configuring done
+[1.018s] -- Generating done
+[1.026s] -- Build files have been written to: /home/rokey/quoridor_ws/build/qulido_robot_msgs
+[1.031s] Invoked command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake /home/rokey/quoridor_ws/src/qulido_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/rokey/quoridor_ws/install/qulido_robot_msgs
+[1.033s] Invoking command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake --build /home/rokey/quoridor_ws/build/qulido_robot_msgs -- -j16 -l16
+[1.065s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.076s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.083s] [  2%] Built target ament_cmake_python_symlink_qulido_robot_msgs
+[1.255s] running egg_info
+[1.255s] writing qulido_robot_msgs.egg-info/PKG-INFO
+[1.255s] writing dependency_links to qulido_robot_msgs.egg-info/dependency_links.txt
+[1.256s] writing top-level names to qulido_robot_msgs.egg-info/top_level.txt
+[1.257s] reading manifest file 'qulido_robot_msgs.egg-info/SOURCES.txt'
+[1.257s] writing manifest file 'qulido_robot_msgs.egg-info/SOURCES.txt'
+[1.277s] [  2%] Built target ament_cmake_python_build_qulido_robot_msgs_egg
+[1.527s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_generator_c[0m
+[1.536s] [  4%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/msg/detail/motion_primitive__functions.c.o[0m
+[1.536s] [  5%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/msg/detail/motion_sequence__functions.c.o[0m
+[1.538s] [  7%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/msg/detail/int32_row__functions.c.o[0m
+[1.539s] [  8%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/srv/detail/ai_compute__functions.c.o[0m
+[1.540s] [  9%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/srv/detail/get_board_state__functions.c.o[0m
+[1.540s] [ 11%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/qulido_robot_msgs/action/detail/execute_motion__functions.c.o[0m
+[1.546s] [ 11%] Built target qulido_robot_msgs__cpp
+[1.554s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.554s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.555s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.641s] [ 16%] [32m[1mLinking C shared library libqulido_robot_msgs__rosidl_generator_c.so[0m
+[1.675s] [ 16%] Built target qulido_robot_msgs__rosidl_generator_c
+[1.682s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.682s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.686s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.848s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_cpp[0m
+[1.858s] [ 22%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/action/execute_motion__type_support.cpp.o[0m
+[1.860s] [ 25%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/msg/int32_row__type_support.cpp.o[0m
+[1.860s] [ 25%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/srv/get_board_state__type_support.cpp.o[0m
+[1.860s] [ 29%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/msg/motion_primitive__type_support.cpp.o[0m
+[1.860s] [ 29%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/srv/ai_compute__type_support.cpp.o[0m
+[1.860s] [ 29%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qulido_robot_msgs/msg/motion_sequence__type_support.cpp.o[0m
+[1.993s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.013s] [ 32%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/msg/detail/int32_row__type_support.cpp.o[0m
+[2.013s] [ 33%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/srv/detail/get_board_state__type_support.cpp.o[0m
+[2.015s] [ 35%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/msg/detail/motion_primitive__type_support.cpp.o[0m
+[2.015s] [ 32%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/msg/detail/motion_sequence__type_support.cpp.o[0m
+[2.019s] [ 36%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/srv/detail/ai_compute__type_support.cpp.o[0m
+[2.025s] [ 38%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/action/detail/execute_motion__type_support.cpp.o[0m
+[2.146s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.165s] [ 40%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/msg/detail/dds_fastrtps/motion_primitive__type_support.cpp.o[0m
+[2.165s] [ 40%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/msg/detail/dds_fastrtps/motion_sequence__type_support.cpp.o[0m
+[2.175s] [ 42%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/msg/detail/dds_fastrtps/int32_row__type_support.cpp.o[0m
+[2.175s] [ 43%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/srv/detail/dds_fastrtps/ai_compute__type_support.cpp.o[0m
+[2.182s] [ 45%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/srv/detail/dds_fastrtps/get_board_state__type_support.cpp.o[0m
+[2.197s] [ 46%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/action/detail/dds_fastrtps/execute_motion__type_support.cpp.o[0m
+[2.354s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_c[0m
+[2.368s] [ 47%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/msg/motion_primitive__type_support.cpp.o[0m
+[2.378s] [ 49%] [32m[1mLinking CXX shared library libqulido_robot_msgs__rosidl_typesupport_cpp.so[0m
+[2.411s] [ 50%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/msg/motion_sequence__type_support.cpp.o[0m
+[2.465s] [ 52%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/msg/int32_row__type_support.cpp.o[0m
+[2.480s] [ 52%] Built target qulido_robot_msgs__rosidl_typesupport_cpp
+[2.480s] [ 53%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/srv/get_board_state__type_support.cpp.o[0m
+[2.491s] [ 54%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/srv/ai_compute__type_support.cpp.o[0m
+[2.498s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_introspection_c[0m
+[2.505s] [ 56%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/qulido_robot_msgs/action/execute_motion__type_support.cpp.o[0m
+[2.514s] [ 57%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/msg/detail/motion_primitive__type_support.c.o[0m
+[2.529s] [ 59%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/msg/detail/int32_row__type_support.c.o[0m
+[2.533s] [ 60%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/msg/detail/motion_sequence__type_support.c.o[0m
+[2.547s] [ 61%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/srv/detail/get_board_state__type_support.c.o[0m
+[2.549s] [ 63%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/srv/detail/ai_compute__type_support.c.o[0m
+[2.565s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.565s] [ 64%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qulido_robot_msgs/action/detail/execute_motion__type_support.c.o[0m
+[2.571s] [ 66%] [32m[1mLinking CXX shared library libqulido_robot_msgs__rosidl_typesupport_c.so[0m
+[2.579s] [ 67%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__type_support_c.cpp.o[0m
+[2.579s] [ 69%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_primitive__type_support_c.cpp.o[0m
+[2.581s] [ 70%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/int32_row__type_support_c.cpp.o[0m
+[2.593s] [ 71%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/get_board_state__type_support_c.cpp.o[0m
+[2.619s] [ 73%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/ai_compute__type_support_c.cpp.o[0m
+[2.620s] [ 73%] Built target qulido_robot_msgs__rosidl_typesupport_c
+[2.632s] [ 74%] [32mBuilding CXX object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/action/detail/execute_motion__type_support_c.cpp.o[0m
+[2.645s] [ 76%] [32m[1mLinking C shared library libqulido_robot_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.692s] [ 76%] Built target qulido_robot_msgs__rosidl_typesupport_introspection_c
+[2.769s] [ 77%] [32m[1mLinking CXX shared library libqulido_robot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.782s] [ 78%] [32m[1mLinking CXX shared library libqulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.832s] [ 78%] Built target qulido_robot_msgs__rosidl_typesupport_introspection_cpp
+[2.870s] [ 78%] Built target qulido_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[2.953s] [ 80%] [32m[1mLinking CXX shared library libqulido_robot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.012s] [ 80%] Built target qulido_robot_msgs__rosidl_typesupport_fastrtps_c
+[3.035s] [ 80%] Built target qulido_robot_msgs
+[3.056s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.846s] [ 81%] Built target qulido_robot_msgs__py
+[3.855s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_generator_py[0m
+[3.874s] [ 84%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/srv/_get_board_state_s.c.o[0m
+[3.875s] [ 84%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/msg/_motion_sequence_s.c.o[0m
+[3.875s] [ 85%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/msg/_int32_row_s.c.o[0m
+[3.876s] [ 87%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/action/_execute_motion_s.c.o[0m
+[3.880s] [ 88%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/msg/_motion_primitive_s.c.o[0m
+[3.883s] [ 90%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/qulido_robot_msgs/srv/_ai_compute_s.c.o[0m
+[4.005s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/qulido_robot_msgs/libqulido_robot_msgs__rosidl_generator_py.so[0m
+[4.042s] [ 91%] Built target qulido_robot_msgs__rosidl_generator_py
+[4.050s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_c__pyext[0m
+[4.053s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.053s] [35m[1mConsolidate compiler generated dependencies of target qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.058s] [ 92%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.063s] [ 94%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.063s] [ 95%] [32mBuilding C object CMakeFiles/qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.145s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.152s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.153s] [100%] [32m[1mLinking C shared library rosidl_generator_py/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.175s] [100%] Built target qulido_robot_msgs__rosidl_typesupport_c__pyext
+[4.180s] [100%] Built target qulido_robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.185s] [100%] Built target qulido_robot_msgs__rosidl_typesupport_introspection_c__pyext
+[4.196s] Invoked command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake --build /home/rokey/quoridor_ws/build/qulido_robot_msgs -- -j16 -l16
+[4.204s] Invoking command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake --install /home/rokey/quoridor_ws/build/qulido_robot_msgs
+[4.211s] -- Install configuration: ""
+[4.211s] -- Execute custom install script
+[4.211s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/qulido_robot_msgs
+[4.212s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__functions.h
+[4.212s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__struct.h
+[4.212s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__type_support.h
+[4.212s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/execute_motion.h
+[4.212s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__functions.h
+[4.218s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__struct.h
+[4.225s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__type_support.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__functions.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__struct.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__type_support.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__functions.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__struct.h
+[4.232s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__type_support.h
+[4.232s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/int32_row.h
+[4.240s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/motion_primitive.h
+[4.240s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/motion_sequence.h
+[4.240s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.240s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/ai_compute.h
+[4.248s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__functions.h
+[4.254s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__struct.h
+[4.262s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__type_support.h
+[4.268s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__functions.h
+[4.275s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__struct.h
+[4.281s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__type_support.h
+[4.287s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/get_board_state.h
+[4.293s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/library_path.sh
+[4.293s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/library_path.dsv
+[4.293s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_fastrtps_c.h
+[4.301s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__rosidl_typesupport_fastrtps_c.h
+[4.301s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_fastrtps_c.h
+[4.301s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.301s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__rosidl_typesupport_fastrtps_c.h
+[4.308s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__rosidl_typesupport_fastrtps_c.h
+[4.314s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__rosidl_typesupport_introspection_c.h
+[4.314s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_introspection_c.h
+[4.320s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__rosidl_typesupport_introspection_c.h
+[4.320s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_introspection_c.h
+[4.320s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.320s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__rosidl_typesupport_introspection_c.h
+[4.328s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__rosidl_typesupport_introspection_c.h
+[4.335s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__builder.hpp
+[4.335s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__struct.hpp
+[4.335s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__traits.hpp
+[4.335s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__type_support.hpp
+[4.335s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/execute_motion.hpp
+[4.336s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__builder.hpp
+[4.344s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__struct.hpp
+[4.351s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__traits.hpp
+[4.358s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__type_support.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__builder.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__struct.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__traits.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__type_support.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__builder.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__struct.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__traits.hpp
+[4.365s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__type_support.hpp
+[4.365s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/int32_row.hpp
+[4.371s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/motion_primitive.hpp
+[4.371s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/motion_sequence.hpp
+[4.371s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.371s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/ai_compute.hpp
+[4.378s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__builder.hpp
+[4.384s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__struct.hpp
+[4.390s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__traits.hpp
+[4.399s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__type_support.hpp
+[4.405s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__builder.hpp
+[4.411s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__struct.hpp
+[4.417s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__traits.hpp
+[4.424s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__type_support.hpp
+[4.430s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/get_board_state.hpp
+[4.437s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[4.437s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_fastrtps_cpp.hpp
+[4.444s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[4.444s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+[4.444s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.444s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__rosidl_typesupport_fastrtps_cpp.hpp
+[4.453s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.459s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/action/detail/execute_motion__rosidl_typesupport_introspection_cpp.hpp
+[4.459s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_introspection_cpp.hpp
+[4.465s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_primitive__rosidl_typesupport_introspection_cpp.hpp
+[4.465s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_introspection_cpp.hpp
+[4.465s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/ai_compute__rosidl_typesupport_introspection_cpp.hpp
+[4.472s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/include/qulido_robot_msgs/qulido_robot_msgs/srv/detail/get_board_state__rosidl_typesupport_introspection_cpp.hpp
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/pythonpath.sh
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/pythonpath.dsv
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.478s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.479s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/__init__.py
+[4.479s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_c.c
+[4.479s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.479s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.479s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action/__init__.py
+[4.480s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action/_execute_motion.py
+[4.480s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action/_execute_motion_s.c
+[4.480s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/libqulido_robot_msgs__rosidl_generator_py.so
+[4.480s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/__init__.py
+[4.480s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_int32_row.py
+[4.486s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_int32_row_s.c
+[4.492s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_primitive.py
+[4.492s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_primitive_s.c
+[4.493s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_sequence.py
+[4.493s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_sequence_s.c
+[4.493s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.493s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.493s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.493s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/__init__.py
+[4.500s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_ai_compute.py
+[4.506s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_ai_compute_s.c
+[4.512s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_get_board_state.py
+[4.519s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_get_board_state_s.c
+[4.527s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.527s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.527s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/qulido_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.527s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/MotionPrimitive.idl
+[4.527s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/MotionSequence.idl
+[4.527s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/Int32Row.idl
+[4.534s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/GetBoardState.idl
+[4.543s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/AiCompute.idl
+[4.549s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/action/ExecuteMotion.idl
+[4.549s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/MotionPrimitive.msg
+[4.549s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/MotionSequence.msg
+[4.549s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/msg/Int32Row.msg
+[4.555s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/GetBoardState.srv
+[4.562s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/GetBoardState_Request.msg
+[4.568s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/GetBoardState_Response.msg
+[4.575s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/AiCompute.srv
+[4.583s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/AiCompute_Request.msg
+[4.592s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/srv/AiCompute_Response.msg
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/action/ExecuteMotion.action
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/ament_index/resource_index/package_run_dependencies/qulido_robot_msgs
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/ament_index/resource_index/parent_prefix_path/qulido_robot_msgs
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/ament_prefix_path.sh
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/ament_prefix_path.dsv
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/path.sh
+[4.602s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/environment/path.dsv
+[4.603s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/local_setup.bash
+[4.603s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/local_setup.sh
+[4.603s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/local_setup.zsh
+[4.603s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/local_setup.dsv
+[4.603s] -- Symlinking: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/package.dsv
+[4.611s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/ament_index/resource_index/packages/qulido_robot_msgs
+[4.611s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/rosidl_cmake-extras.cmake
+[4.611s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.611s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgsConfig.cmake
+[4.612s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgsConfig-version.cmake
+[4.613s] -- Up-to-date symlink: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/package.xml
+[4.613s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_generator_c.so
+[4.613s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_generator_c.so" to ""
+[4.614s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_fastrtps_c.so
+[4.614s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.614s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_introspection_c.so
+[4.615s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.615s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_c.so
+[4.615s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_c.so" to ""
+[4.616s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.616s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.616s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_introspection_cpp.so
+[4.617s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.617s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_cpp.so
+[4.618s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_typesupport_cpp.so" to ""
+[4.659s] Listing '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs'...
+[4.659s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/__init__.py'...
+[4.659s] Listing '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action'...
+[4.659s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action/__init__.py'...
+[4.659s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/action/_execute_motion.py'...
+[4.659s] Listing '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg'...
+[4.659s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/__init__.py'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_int32_row.py'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_primitive.py'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/msg/_motion_sequence.py'...
+[4.660s] Listing '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/__init__.py'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_ai_compute.py'...
+[4.660s] Compiling '/home/rokey/quoridor_ws/install/qulido_robot_msgs/local/lib/python3.10/dist-packages/qulido_robot_msgs/srv/_get_board_state.py'...
+[4.663s] -- Installing: /home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_generator_py.so
+[4.663s] -- Set runtime path of "/home/rokey/quoridor_ws/install/qulido_robot_msgs/lib/libqulido_robot_msgs__rosidl_generator_py.so" to ""
+[4.663s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_generator_cExport.cmake
+[4.663s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.663s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.663s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_cExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_generator_cppExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_cppExport.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/qulido_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.664s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_generator_pyExport.cmake
+[4.665s] -- Up-to-date: /home/rokey/quoridor_ws/install/qulido_robot_msgs/share/qulido_robot_msgs/cmake/export_qulido_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.666s] Invoked command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake --install /home/rokey/quoridor_ws/build/qulido_robot_msgs

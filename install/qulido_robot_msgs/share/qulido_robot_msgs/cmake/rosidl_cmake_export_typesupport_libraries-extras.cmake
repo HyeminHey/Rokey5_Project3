@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

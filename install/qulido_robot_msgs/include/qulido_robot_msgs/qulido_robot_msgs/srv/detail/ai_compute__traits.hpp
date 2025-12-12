@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_cpp/qulido_robot_msgs/srv/detail/ai_compute__traits.hpp

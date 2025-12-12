@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_typesupport_introspection_cpp/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_introspection_cpp.hpp

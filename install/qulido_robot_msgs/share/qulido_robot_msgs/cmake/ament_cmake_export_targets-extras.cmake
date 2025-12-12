@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_c/qulido_robot_msgs/msg/detail/motion_primitive__struct.h

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "qulido_robot_msgs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "qulido_robot_msgs__py::@ce57a468b4b7ae0d4251",
+	"name" : "qulido_robot_msgs__py",
+	"paths" : 
+	{
+		"build" : "qulido_robot_msgs__py",
+		"source" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py/CMakeFiles/qulido_robot_msgs__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py/CMakeFiles/qulido_robot_msgs__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

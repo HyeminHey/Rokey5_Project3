@@ -1,0 +1,45 @@
+{
+  "package_name": "qulido_robot_msgs",
+  "output_dir": "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionPrimitive.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionSequence.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/Int32Row.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/GetBoardState.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/AiCompute.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:action/ExecuteMotion.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/humble/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/msg/MotionPrimitive.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/msg/MotionSequence.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/msg/Int32Row.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/srv/GetBoardState.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/srv/AiCompute.idl",
+    "/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/action/ExecuteMotion.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/humble/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

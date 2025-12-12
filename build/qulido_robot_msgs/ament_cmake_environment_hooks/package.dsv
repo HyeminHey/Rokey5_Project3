@@ -1,0 +1,4 @@
+source;share/qulido_robot_msgs/local_setup.bash
+source;share/qulido_robot_msgs/local_setup.dsv
+source;share/qulido_robot_msgs/local_setup.sh
+source;share/qulido_robot_msgs/local_setup.zsh

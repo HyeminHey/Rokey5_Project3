@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "qulido_robot_msgs__py",
+		"source" : "/home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py"
+	}
+}

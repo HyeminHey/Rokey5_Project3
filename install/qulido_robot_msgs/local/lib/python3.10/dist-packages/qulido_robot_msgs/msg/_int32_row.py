@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/msg/_int32_row.py

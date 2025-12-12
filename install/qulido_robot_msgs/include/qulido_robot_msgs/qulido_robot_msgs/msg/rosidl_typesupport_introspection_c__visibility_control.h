@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_typesupport_introspection_c/qulido_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,55 @@
+[0.008s] Invoking command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake /home/rokey/quoridor_ws/src/qulido_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/rokey/quoridor_ws/install/qulido_robot_msgs
+[0.016s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.132s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.307s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.307s]   qulido_robot_msgs --arguments-file
+[0.307s]   /home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter__arguments__qulido_robot_msgs.json
+[0.307s]   --output-dir
+[0.307s]   /home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs
+[0.307s]   --output-file
+[0.307s]   /home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs.idls)
+[0.308s]   returned error code 1:
+[0.308s] 
+[0.308s]   Error processing 'int32[][] board_state' of
+[0.308s]   'qulido_robot_msgs/GetBoardState_Response': ''int32[]' is an invalid
+[0.308s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.308s] 
+[0.308s]   Traceback (most recent call last):
+[0.308s] 
+[0.308s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.308s]       return _run_code(code, main_globals, None,
+[0.308s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.308s]       exec(code, run_globals)
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.308s]       sys.exit(main())
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.308s]       abs_idl_file = convert_to_idl(
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.308s]       return convert_srv_to_idl(
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.308s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+[0.308s]       response_message = parse_message_string(
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.308s]       Type(type_string, context_package_name=pkg_name),
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.308s]       super(Type, self).__init__(
+[0.308s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.308s]       raise InvalidResourceName(
+[0.308s] 
+[0.308s]   rosidl_adapter.parser.InvalidResourceName: 'int32[]' is an invalid message
+[0.308s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.308s] 
+[0.308s] Call Stack (most recent call first):
+[0.308s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.309s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.309s] 
+[0.309s] [0m
+[0.309s] -- Configuring incomplete, errors occurred!
+[0.309s] See also "/home/rokey/quoridor_ws/build/qulido_robot_msgs/CMakeFiles/CMakeOutput.log".
+[0.311s] Invoked command in '/home/rokey/quoridor_ws/build/qulido_robot_msgs' returned '1': CMAKE_PREFIX_PATH=/home/rokey/quoridor_ws/install/qulido_robot_msgs:/home/rokey/quoridor_ws/install/quoridor_main:/home/rokey/ros2_ws/install/rokey:/home/rokey/ros2_ws/install/pick_and_place_voice:/home/rokey/ros2_ws/install/pick_and_place_text:/home/rokey/ros2_ws/install/dsr_visualservoing:/home/rokey/ros2_ws/install/dsr_tests:/home/rokey/ros2_ws/install/dsr_bringup2:/home/rokey/ros2_ws/install/dsr_example:/opt/ros/humble:/home/rokey/ros2_ws/install/od_msg:/home/rokey/ros2_ws/install/dsr_realtime_control:/home/rokey/ros2_ws/install/dsr_controller2:/home/rokey/ros2_ws/install/dsr_msgs2:/home/rokey/ros2_ws/install/dsr_moveit_config_p3020:/home/rokey/ros2_ws/install/dsr_moveit_config_m1509:/home/rokey/ros2_ws/install/dsr_moveit_config_m1013:/home/rokey/ros2_ws/install/dsr_moveit_config_m0617:/home/rokey/ros2_ws/install/dsr_moveit_config_m0609:/home/rokey/ros2_ws/install/dsr_moveit_config_h2515:/home/rokey/ros2_ws/install/dsr_moveit_config_h2017:/home/rokey/ros2_ws/install/dsr_moveit_config_e0509:/home/rokey/ros2_ws/install/dsr_moveit_config_a0912:/home/rokey/ros2_ws/install/dsr_moveit_config_a0509:/home/rokey/ros2_ws/install/dsr_hardware2:/home/rokey/ros2_ws/install/dsr_gazebo2:/home/rokey/ros2_ws/install/dsr_description2:/home/rokey/ros2_ws/install/dsr_common2 /usr/bin/cmake /home/rokey/quoridor_ws/src/qulido_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/rokey/quoridor_ws/install/qulido_robot_msgs

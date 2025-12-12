@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/_qulido_robot_msgs_s.ep.rosidl_typesupport_c.c

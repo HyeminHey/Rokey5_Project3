@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from qulido_robot_msgs/msg/MotionSequence.msg
+// generated code does not contain a copyright notice
+
+#include "qulido_robot_msgs/msg/MotionPrimitive.idl"
+
+module qulido_robot_msgs {
+  module msg {
+    struct MotionSequence {
+      sequence<qulido_robot_msgs::msg::MotionPrimitive> sequence;
+    };
+  };
+};

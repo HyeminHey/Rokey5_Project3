@@ -1,0 +1,22 @@
+[0.438s] Invoking command in '/home/rokey/quoridor_ws/build/quoridor_main': PYTHONPATH=/home/rokey/quoridor_ws/build/quoridor_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/quoridor_ws/build/quoridor_main/build --no-deps symlink_data
+[0.622s] running develop
+[0.739s] running egg_info
+[0.739s] writing quoridor_main.egg-info/PKG-INFO
+[0.739s] writing dependency_links to quoridor_main.egg-info/dependency_links.txt
+[0.739s] writing entry points to quoridor_main.egg-info/entry_points.txt
+[0.739s] writing requirements to quoridor_main.egg-info/requires.txt
+[0.739s] writing top-level names to quoridor_main.egg-info/top_level.txt
+[0.740s] reading manifest file 'quoridor_main.egg-info/SOURCES.txt'
+[0.741s] writing manifest file 'quoridor_main.egg-info/SOURCES.txt'
+[0.742s] running build_ext
+[0.742s] Creating /home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages/quoridor-main.egg-link (link to .)
+[0.742s] Installing board_ros script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.742s] Installing board_ros_client script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.742s] Installing game_orchestrator script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.742s] Installing robot_ctrl script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.743s] Installing robot_ctrl_client script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.743s] Installing speech_service script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+[0.743s] 
+[0.743s] Installed /home/rokey/quoridor_ws/build/quoridor_main
+[0.743s] running symlink_data
+[0.760s] Invoked command in '/home/rokey/quoridor_ws/build/quoridor_main' returned '0': PYTHONPATH=/home/rokey/quoridor_ws/build/quoridor_main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rokey/quoridor_ws/build/quoridor_main/build --no-deps symlink_data

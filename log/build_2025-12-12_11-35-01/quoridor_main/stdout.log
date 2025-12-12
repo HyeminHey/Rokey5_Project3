@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing quoridor_main.egg-info/PKG-INFO
+writing dependency_links to quoridor_main.egg-info/dependency_links.txt
+writing entry points to quoridor_main.egg-info/entry_points.txt
+writing requirements to quoridor_main.egg-info/requires.txt
+writing top-level names to quoridor_main.egg-info/top_level.txt
+reading manifest file 'quoridor_main.egg-info/SOURCES.txt'
+writing manifest file 'quoridor_main.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rokey/quoridor_ws/install/quoridor_main/lib/python3.10/site-packages/quoridor-main.egg-link (link to .)
+Installing board_ros script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+Installing board_ros_client script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+Installing game_orchestrator script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+Installing robot_ctrl script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+Installing robot_ctrl_client script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+Installing speech_service script to /home/rokey/quoridor_ws/install/quoridor_main/lib/quoridor_main
+
+Installed /home/rokey/quoridor_ws/build/quoridor_main
+running symlink_data

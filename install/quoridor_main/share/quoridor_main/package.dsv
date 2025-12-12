@@ -1,0 +1,9 @@
+source;share/quoridor_main/hook/pythonpath.ps1
+source;share/quoridor_main/hook/pythonpath.dsv
+source;share/quoridor_main/hook/pythonpath.sh
+source;share/quoridor_main/hook/ament_prefix_path.ps1
+source;share/quoridor_main/hook/ament_prefix_path.dsv
+source;share/quoridor_main/hook/ament_prefix_path.sh
+source;../../build/quoridor_main/share/quoridor_main/hook/pythonpath_develop.ps1
+source;../../build/quoridor_main/share/quoridor_main/hook/pythonpath_develop.dsv
+source;../../build/quoridor_main/share/quoridor_main/hook/pythonpath_develop.sh

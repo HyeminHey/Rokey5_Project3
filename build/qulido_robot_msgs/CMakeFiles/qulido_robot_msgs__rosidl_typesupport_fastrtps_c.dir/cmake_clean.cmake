@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/action/detail/execute_motion__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/action/detail/execute_motion__type_support_c.cpp.o.d"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/int32_row__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/int32_row__type_support_c.cpp.o.d"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_primitive__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_primitive__type_support_c.cpp.o.d"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__type_support_c.cpp.o.d"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/ai_compute__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/ai_compute__type_support_c.cpp.o.d"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/get_board_state__type_support_c.cpp.o"
+  "CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/get_board_state__type_support_c.cpp.o.d"
+  "libqulido_robot_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libqulido_robot_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/action/detail/execute_motion__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/action/detail/execute_motion__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/int32_row__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/int32_row__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_primitive__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_primitive__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/msg/detail/motion_sequence__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/ai_compute__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/ai_compute__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/get_board_state__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/qulido_robot_msgs/srv/detail/get_board_state__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qulido_robot_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

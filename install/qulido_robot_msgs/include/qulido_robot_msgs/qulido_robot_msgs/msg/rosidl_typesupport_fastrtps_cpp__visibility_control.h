@@ -1,0 +1,1 @@
+/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_typesupport_fastrtps_cpp/qulido_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
