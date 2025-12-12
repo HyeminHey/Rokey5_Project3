@@ -1,1 +1,12 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_cpp/qulido_robot_msgs/msg/motion_sequence.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef QULIDO_ROBOT_MSGS__MSG__MOTION_SEQUENCE_HPP_
+#define QULIDO_ROBOT_MSGS__MSG__MOTION_SEQUENCE_HPP_
+
+#include "qulido_robot_msgs/msg/detail/motion_sequence__struct.hpp"
+#include "qulido_robot_msgs/msg/detail/motion_sequence__builder.hpp"
+#include "qulido_robot_msgs/msg/detail/motion_sequence__traits.hpp"
+#include "qulido_robot_msgs/msg/detail/motion_sequence__type_support.hpp"
+
+#endif  // QULIDO_ROBOT_MSGS__MSG__MOTION_SEQUENCE_HPP_

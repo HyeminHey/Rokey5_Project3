@@ -1,1 +1,2 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_cmake/srv/AiCompute_Request.msg
+# Request
+int32[] added

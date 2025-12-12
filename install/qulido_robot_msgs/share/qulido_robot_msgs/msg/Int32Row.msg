@@ -1,1 +1,2 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/msg/Int32Row.msg
+int32[] data
+

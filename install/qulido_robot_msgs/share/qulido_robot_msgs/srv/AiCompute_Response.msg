@@ -1,1 +1,4 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_cmake/srv/AiCompute_Response.msg
+
+# Response
+int32[] ai_cmd
+

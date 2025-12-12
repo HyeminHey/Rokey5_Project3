@@ -1,1 +1,10 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/action/ExecuteMotion.action
+# Goal
+qulido_robot_msgs/MotionSequence sequence
+
+---
+# Result
+bool success
+
+---
+# Feedback
+string current_step

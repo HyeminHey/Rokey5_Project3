@@ -251,6 +251,9 @@ class Board(Drawable):
         사람(외부 시스템)이 낸 수를 적용
         action: ActionMovePawn | ActionPlaceWall
         """
+        if self.current_player.AI:
+            raise RuntimeError("now is AI turn")
+        
         if action is not None:
             if isinstance(action, ActionMovePawn):
                 x = action.dest.col
@@ -261,25 +264,31 @@ class Board(Drawable):
                     return
                 self.do_action(action)
                 self.draw()
-                #############일단 여기까지 함
+
+            if self.finished:
+                self.draw_player_info(self.player)
+                return
             
-        if self.finished:
+            self.next_player()
+            self.draw_players_info()
             return
 
-        # 사람 턴인지 검사 (선택)
-        if self.current_player.AI:
-            raise RuntimeError("현재 턴은 AI입니다")
+        if action is not None:
+            if isinstance(action, ActionPlaceWall):
+                x = action.coord.col
+                y = action.coord.row
+                wall = self.wall(x, y)
+                if not wall:
+                    return
+                if self.can_put_wall(wall):
+                    self.do_action(action)
+                    self.next_player()
+                    self.draw_players_info()
 
-        # ✅ 실제 게임 반영
-        self.do_action(action)
-
-        if not self.finished:
-            self.next_player()
-
-        # 만약 다음이 AI라면 AI 턴 실행
-        if self.current_player.AI:
-            self.computing = True
-            self.computer_move()
+        # # 만약 다음이 AI라면 AI 턴 실행
+        # if self.current_player.AI:
+        #     self.computing = True
+        #     self.computer_move()
 
 
 

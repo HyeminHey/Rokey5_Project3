@@ -1,1 +1,3 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/msg/MotionPrimitive.msg
+string primitive          # "move_pose" | "operate_gripper" | "force_control"
+float64[6] target_pose    # [x, y, z, roll, pitch, yaw]
+int32 gripper_width

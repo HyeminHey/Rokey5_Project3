@@ -1,11 +1,11 @@
 {
   "package_name": "qulido_robot_msgs",
   "non_idl_tuples": [
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:msg/MotionPrimitive.msg",
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:msg/MotionSequence.msg",
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:msg/Int32Row.msg",
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:srv/GetBoardState.srv",
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:srv/AiCompute.srv",
-    "/home/rokey/quoridor_ws/src/qulido_robot_msgs:action/ExecuteMotion.action"
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:msg/MotionPrimitive.msg",
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:msg/MotionSequence.msg",
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:msg/Int32Row.msg",
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:srv/GetBoardState.srv",
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:srv/AiCompute.srv",
+    "/home/hyemin/quoridor_ws/src/qulido_robot_msgs:action/ExecuteMotion.action"
   ]
 }

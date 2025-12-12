@@ -1,1 +1,6 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/ament_cmake_python/qulido_robot_msgs/qulido_robot_msgs.egg-info/SOURCES.txt
+setup.py
+qulido_robot_msgs/__init__.py
+qulido_robot_msgs.egg-info/PKG-INFO
+qulido_robot_msgs.egg-info/SOURCES.txt
+qulido_robot_msgs.egg-info/dependency_links.txt
+qulido_robot_msgs.egg-info/top_level.txt

@@ -1,1 +1,1 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/action/__init__.py
+from qulido_robot_msgs.action._execute_motion import ExecuteMotion  # noqa: F401

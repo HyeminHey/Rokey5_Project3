@@ -1,8 +1,8 @@
-# Install script for directory: /home/rokey/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py
+# Install script for directory: /home/hyemin/quoridor_ws/build/qulido_robot_msgs/qulido_robot_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rokey/quoridor_ws/install/qulido_robot_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/hyemin/quoridor_ws/install/qulido_robot_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

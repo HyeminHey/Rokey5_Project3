@@ -1,1 +1,1 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/msg/MotionSequence.msg
+qulido_robot_msgs/MotionPrimitive[] sequence

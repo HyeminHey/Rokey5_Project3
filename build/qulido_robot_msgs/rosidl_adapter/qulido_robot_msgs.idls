@@ -1,6 +1,6 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionPrimitive.idl
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionSequence.idl
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/Int32Row.idl
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/GetBoardState.idl
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/AiCompute.idl
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:action/ExecuteMotion.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionPrimitive.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/MotionSequence.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:msg/Int32Row.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/GetBoardState.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:srv/AiCompute.idl
+/home/hyemin/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs:action/ExecuteMotion.idl

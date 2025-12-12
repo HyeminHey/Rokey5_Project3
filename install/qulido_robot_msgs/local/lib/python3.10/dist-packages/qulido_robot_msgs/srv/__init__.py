@@ -1,1 +1,2 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_generator_py/qulido_robot_msgs/srv/__init__.py
+from qulido_robot_msgs.srv._ai_compute import AiCompute  # noqa: F401
+from qulido_robot_msgs.srv._get_board_state import GetBoardState  # noqa: F401

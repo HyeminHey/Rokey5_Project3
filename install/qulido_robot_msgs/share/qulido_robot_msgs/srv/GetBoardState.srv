@@ -1,1 +1,3 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/srv/GetBoardState.srv
+---
+qulido_robot_msgs/Int32Row[] board_state
+

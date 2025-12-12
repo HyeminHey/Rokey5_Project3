@@ -1,1 +1,16 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/srv/GetBoardState.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qulido_robot_msgs/srv/GetBoardState.srv
+// generated code does not contain a copyright notice
+
+#include "qulido_robot_msgs/msg/Int32Row.idl"
+
+module qulido_robot_msgs {
+  module srv {
+    struct GetBoardState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetBoardState_Response {
+      sequence<qulido_robot_msgs::msg::Int32Row> board_state;
+    };
+  };
+};

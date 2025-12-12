@@ -1,1 +1,6 @@
-/home/rokey/quoridor_ws/src/qulido_robot_msgs/srv/AiCompute.srv
+# Request
+int32[] added
+---
+# Response
+int32[] ai_cmd
+

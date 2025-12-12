@@ -1,1 +1,21 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_adapter/qulido_robot_msgs/msg/MotionPrimitive.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from qulido_robot_msgs/msg/MotionPrimitive.msg
+// generated code does not contain a copyright notice
+
+
+module qulido_robot_msgs {
+  module msg {
+    typedef double double__6[6];
+    struct MotionPrimitive {
+      @verbatim (language="comment", text=
+        "\"move_pose\" | \"operate_gripper\" | \"force_control\"")
+      string primitive;
+
+      @verbatim (language="comment", text=
+        "[x, y, z, roll, pitch, yaw]")
+      double__6 target_pose;
+
+      int32 gripper_width;
+    };
+  };
+};

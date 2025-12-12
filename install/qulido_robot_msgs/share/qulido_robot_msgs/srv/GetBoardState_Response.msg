@@ -1,1 +1,3 @@
-/home/rokey/quoridor_ws/build/qulido_robot_msgs/rosidl_cmake/srv/GetBoardState_Response.msg
+
+qulido_robot_msgs/Int32Row[] board_state
+
