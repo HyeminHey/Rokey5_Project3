@@ -187,29 +187,29 @@ class Board(Drawable):
     def onMouseClick(self, x, y):
         """ Dispatch mouse click Event
         """
-        cell = self.which_cell(x, y)
-        if cell is not None:
-            pawn = self.current_player
-            if not pawn.can_move(cell.coord):
-                return
+        cell = self.which_cell(x, y) # 셀 선택
+        if cell is not None: # 셀 선택이 되었다면
+            pawn = self.current_player # 폰을 현재 플레이어로 설정
+            if not pawn.can_move(cell.coord): # 폰이 셀의 좌표로 움직일 수 없다면 리턴
+                return                
 
-            self.do_action(ActionMovePawn(pawn.coord, cell.coord))
-            cell.set_focus(False)
-            self.draw()
+            self.do_action(ActionMovePawn(pawn.coord, cell.coord)) # 폰이 셀의 좌표로 움직일 수 있다면 doaction / from,to전달
+            cell.set_focus(False) # 마우스 하이라이트 끔
+            self.draw() # 보드 전체 다시 draw
 
             if self.finished:
                 self.draw_player_info(self.player)
                 return
 
-            self.next_player()
-            self.draw_players_info()
+            self.next_player() # 플레이어 변경
+            self.draw_players_info() # 폰 그리고 리턴
             return
 
-        wall = self.wall(x, y)
+        wall = self.wall(x, y) # wall로 인자 설정하고 new_wall로 Wall 객체 반환하게 됨
         if not wall:
             return
 
-        if self.can_put_wall(wall):
+        if self.can_put_wall(wall): # 벽을 놓을 수 있는지 판단하고 putWall (self.walls에 저장됨)
             self.do_action(ActionPlaceWall(wall))
             self.next_player()
             self.draw_players_info()
@@ -251,7 +251,18 @@ class Board(Drawable):
         사람(외부 시스템)이 낸 수를 적용
         action: ActionMovePawn | ActionPlaceWall
         """
-
+        if action is not None:
+            if isinstance(action, ActionMovePawn):
+                x = action.dest.col
+                y = action.dest.row
+                cell = self.which_cell(x, y)
+                pawn = self.current_player
+                if not pawn.can_move(cell.coord):
+                    return
+                self.do_action(action)
+                self.draw()
+                #############일단 여기까지 함
+            
         if self.finished:
             return
 
@@ -302,22 +313,12 @@ class Board(Drawable):
         if not self.rect.collidepoint(x, y):
             return None
 
-        # Wall: Guess which top-left get_cell is it
+        # Wall: Guess which top-left get_cell is it 가장 가까운 셀 찾기
         j = (x - self.x) // (self.board[0][0].width + self.cell_pad)
         i = (y - self.y) // (self.board[0][0].height + self.cell_pad)
         cell = self.board[i][j]
 
         # Wall: Guess if it is horizontal or vertical
-        # horiz = x < (cell.x + cell.width)
-        # if horiz:
-        #     if j > 7:
-        #         j = 7
-        # else:
-        #     if i > 7:
-        #         i = 7
-
-        # if i > 7 or j > 7:
-        #     return None
         horiz = x < (cell.x + cell.width)
         max_idx = self.rows - 2
         if horiz:

@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# from abc import ABC
-# from entities.wall import Wall
-# from entities.coord import Coord
 from abc import ABC
 from quoridor_main.entities.wall import Wall
 from quoridor_main.entities.coord import Coord
